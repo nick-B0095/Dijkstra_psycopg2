@@ -5,8 +5,8 @@ In cmd,
 createdb -U postgres problem
 psql -U postgres -d problem -f <route(경로)>/route.dump
 ```
-postgres - user in db
-problem - db's name
+###### postgres - user in db
+###### problem - db's name
 
 ## Dijkstra's Algorithm
 the algorithm is a solution to the single-source shortest path problem in graph theory.
