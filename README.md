@@ -1,4 +1,12 @@
 # Dijkstra_psycopg2
+## how to install data provided
+In cmd,
+```shell
+createdb -U postgres problem
+psql -U postgres -d problem -f <route(경로)>/route.dump
+```
+postgres - user in db
+problem - db's name
 
 ## Dijkstra's Algorithm
 the algorithm is a solution to the single-source shortest path problem in graph theory.
